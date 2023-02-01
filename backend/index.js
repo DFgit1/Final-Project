@@ -190,25 +190,6 @@ app.post("/favourites", function(req, res){
     });
     });
 
-//weatherAPI
-// app.get('/get-weather', (req, res) => {
-//     const url = `https://api.openweathermap.org/data/2.5/weather?lat=51.1762&lon=-115.5698&units=metric&appid=ca55b20dd0c0e1bbd5e0bfc508ddc1d2`;
-    
-//     // `https://api.openweathermap.org/data/2.5/weather?lat=51.1762&lon=-115.5698&units=metric&appid=${process.env.API_KEY}`;
-
-//     // Request the url 
-//     request(url, (err, response, body) => {
-//         if (err) {
-//             return res.json({
-//                 success: false,
-//                 err: 'Cannot get the weather details! Please try again later.'
-//             })
-//         } else {
-//             let weather =  JSON.parse(body);
-//             return weather;
-//         }
-//     });
-// });
 
 
 
