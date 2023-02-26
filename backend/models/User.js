@@ -23,7 +23,13 @@ const User = config.define("User", {
     image: {
         type: Sequelize.STRING,
         allowNull: false
-    }  
+    },
+
+    dt: {
+        type: Sequelize.DATE,
+        allowNull: false
+    }
+
 }, {timestamps: false});
 
 module.exports = User;
