@@ -27,7 +27,7 @@ const User = config.define("User", {
 
     dt: {
         type: Sequelize.DATE,
-        allowNull: false
+        allowNull: true
     }
 
 }, {timestamps: false});
